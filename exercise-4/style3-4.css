@@ -3,32 +3,32 @@ body {
     grid-template-columns: 1fr 1fr 1fr; 
     grid-template-rows: 1fr 2fr 1fr;
     grid-template-areas: 
-      "green green green"
-      "yellow red blue"
-      "orange orange blue";
+      "g g g"
+      "y r b"
+      "o o b";
   }
   
-  #green {
-    grid-area: green;
+  #g {
+    grid-area: g;
   }
   
-  #yellow {
-    grid-area: yellow;
+  #y {
+    grid-area: y;
   }
   
-  #orange {
-    grid-area: orange;
+  #o {
+    grid-area: o;
   }
   
-  #red {
-    grid-area: red;
+  #r {
+    grid-area: r;
   }
   
-  #blue {
-    grid-area: blue;
+  #b {
+    grid-area: b;
   }
   
-  #yellow ul, #red ul {
+  #y ul, #r ul {
     display: grid;
     grid-template-columns: 1fr 1fr; 
     grid-template-rows: 1fr 1fr;

@@ -3,27 +3,27 @@ body {
     grid-template-columns: 1fr 1fr 1fr; 
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: 
-      "green green green"
-      "yellow orange red"
-      "yellow blue red";
+      "g g g"
+      "y o r"
+      "y b r";
   }
   
-  #green {
-    grid-area: green;
+  #g {
+    grid-area: g;
   }
   
-  #yellow {
-    grid-area: yellow;
+  #y {
+    grid-area: y;
   }
   
-  #orange {
-    grid-area: orange;
+  #o {
+    grid-area: o;
   }
   
-  #red {
-    grid-area: red;
+  #r {
+    grid-area: r;
   }
   
-  #blue {
-    grid-area: blue;
+  #b {
+    grid-area: b;
   }

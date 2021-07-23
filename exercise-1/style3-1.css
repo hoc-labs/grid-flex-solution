@@ -3,7 +3,7 @@ body {
     flex-direction: row;
   }
   
-  #orange {
+  #o {
     flex-grow: 1;
   }
   
@@ -11,10 +11,10 @@ body {
     order: 3;
   }
   
-  #yellow {
+  #y {
     order: 1;
   }
   
-  #red {
+  #r {
     order: 2;
   }
